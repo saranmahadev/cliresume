@@ -1,0 +1,59 @@
+
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.3rem;          
+    background: #FCEE0C;        
+    color: #1c1c1c;  
+}
+
+::placeholder { 
+    color: #FFF;
+    opacity: 0.6; 
+}
+
+input[type="text"] {
+    max-width: 80%;
+    width: 100%;
+    border: none;
+}
+input[type="text"]:focus{
+    outline:none;
+    
+}
+input[type="color"]{
+    float: right;
+    border: none;
+}      
+
+table {
+    width: 80%;
+}
+
+td {
+    border: dotted;
+    padding: 10px 10px 10px 10px;
+}
+.response,a,td {
+    font-size: 0.8rem;
+}
+
+#snackbar {
+    visibility: hidden; 
+    margin-left: 10%; 
+    text-align: center;  
+    position: fixed; 
+    z-index: 1; 
+    left: 60%; 
+    bottom: 30px; 
+}
+  
+#snackbar.show {
+    visibility: visible; 
+    animation: fadein 2.5s;
+}
+  
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}

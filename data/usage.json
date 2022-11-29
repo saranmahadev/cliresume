@@ -1,0 +1,24 @@
+{
+    "commands": [
+        {
+            "command": "contact",
+            "args": "--web<br>--email<br>--phone",
+            "usage": "Provides the contact details"
+        },
+        {
+            "command": "education",
+            "args": "--school<br>--college",
+            "usage": "Shows the academic journey"
+        },
+        {
+            "command": "quote",
+            "args":"-",
+            "usage": "Shows what i believe"
+        },        
+        {
+            "command": "clear",
+            "args": "-",
+            "usage": "Clears the screen"
+        }        
+    ]
+}
